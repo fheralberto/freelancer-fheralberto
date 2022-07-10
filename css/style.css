@@ -113,8 +113,8 @@ h3 {
     justify-content: center;
 }
 .orden{
-    display: grid;
-    grid-template-columns: 4.5rem 1fr;
+    display: flex;
+    align-items: flex-end;
 }
 .orden svg{
     grid-row: span 2;
@@ -128,6 +128,9 @@ h3 {
 .contenido-hero h2, 
 .contenido-hero p {
     color: var(--blanco);
+}
+.contenido-hero p{
+    margin: 1rem 0 0;
 }
 .boton {
     background-color: var(--secundario);
