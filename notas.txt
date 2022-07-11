@@ -1,0 +1,15 @@
+Para crear un snipper css para hacer media queries:
+-Presionar ctr + shift + p
+-Buscar: >user snippets 
+-Buscar el css.json
+-Crear snippet:
+  "Crea Media Query":{
+		"prefix": "mq",
+		"body" : "@media screen and (min-width: $1) {\n  $2\n}"
+	}
+  * al escribir mq se escribe el snippet 
+    al presionar tab se posiciona en $1
+    al presionar tab de nuevo se posiciona en $2
+
+Utiliza el número más pequeño
+width: min(60rem, 100%)
