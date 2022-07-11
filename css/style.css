@@ -205,8 +205,11 @@ main.contenedor{
 }
 
 /* __formulario__ */
-#contacto{
+.contacto{
 	background-color: var(--gris);
+}
+.contacto h2{
+	color: var(--blanco);
 }
 .iconos i {
 	font-size: 2rem;
@@ -250,13 +253,11 @@ main.contenedor{
 	margin-bottom: .5rem;
 	display: block;
 }
-
 @media (min-width:480px) {
 	.campo label {
 		flex: 0 0 90px;
 	}
 }
-
 .campo input[type="text"],
 .campo input[type="tel"],
 .campo input[type="mail"],
@@ -267,15 +268,12 @@ main.contenedor{
 	border: none;
 	border-radius: .5rem;
 }
-
 .w-100 {
 	flex: 0 0 100%;
 }
-
 .campo textarea {
 	resize: none;
 }
-
 .enviar {
 	width: 100%;
 	margin-bottom: 0;
@@ -283,6 +281,7 @@ main.contenedor{
 	justify-content: flex-end;
 }
 
+/* __footer__ */
 /* .footer { */
 	/* scroll-snap-align: end; */
 	/* scroll-snap-align: end;
@@ -309,7 +308,6 @@ main.contenedor{
 .footer .contenido-footer > p:nth-child(3) {
 	font-size: 1.2rem;
 }
-
 .enlace {
 	text-decoration: none;
 	color: var(--secundario);
