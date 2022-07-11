@@ -11,7 +11,7 @@ html {
 	scroll-snap-type: y mandatory;
 	/* scroll-snap-type: y proximity; */
 }
-.scroll-titulo,
+/* .scroll-titulo,
 .scroll-hero,
 .scroll-servicios,
 .scroll-diseno,
@@ -20,7 +20,7 @@ html {
 .scroll-contacto{
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
-}
+} */
 *,
 *:before,
 *:after {
@@ -283,11 +283,11 @@ main.contenedor{
 	justify-content: flex-end;
 }
 
-.footer {
+/* .footer { */
 	/* scroll-snap-align: end; */
-	scroll-snap-align: end;
-	scroll-snap-stop: always;
-}
+	/* scroll-snap-align: end;
+	scroll-snap-stop: always; */
+/* } */
 .contenido-footer{
 	margin: 0 auto;
 	display: flex;
@@ -357,16 +357,22 @@ main.contenedor{
 	textarea) {
 	flex: 1;
 	}
-	.scroll-hero{
+	/* .scroll-hero{
 		scroll-snap-align:unset;
 		scroll-snap-stop:unset;
-	}
+	} */
 }
-@media screen and (min-width: 768px) and (min-height: 480px) {
-	.scroll-diseno,
+@media screen and (min-width: 768px) and (min-height: 568px) {
+	/* .scroll-diseno,
 	.scroll-apps,
 	.scroll-e{
 		scroll-snap-align:unset;
 		scroll-snap-stop:unset;
-	}		
+	}	*/
+	.scroll-titulo,
+	.scroll-servicios,
+	.scroll-footer {
+		scroll-snap-align: start;
+		scroll-snap-stop: always;
+	}
 }
