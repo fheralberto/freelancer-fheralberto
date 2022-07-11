@@ -364,8 +364,7 @@ main.contenedor{
 @media screen and (min-width: 768px) and (min-height: 480px) {
 	.scroll-diseno,
 	.scroll-apps,
-	.scroll-e,
-	.scroll-contacto{
+	.scroll-e{
 		scroll-snap-align:unset;
 		scroll-snap-stop:unset;
 	}		
