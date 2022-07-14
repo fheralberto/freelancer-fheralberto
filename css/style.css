@@ -116,6 +116,14 @@ h1 span {
 	display: flex;
 	align-items: flex-end;
 }
+@media screen and (min-height: 568px) {
+		.orden{
+			margin-bottom: 2rem;
+		}
+		.contenido-hero h2{
+			height: auto;
+		}
+}
 .contenido-hero p {
 	color: var(--blanco);
 	padding-right: 1.5rem;
