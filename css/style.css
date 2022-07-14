@@ -150,7 +150,7 @@ h1 span {
 		height: 5.8rem;
 	}
 }
-@media screen and (min-height: 736px) {
+@media screen and (min-height: 568px) and (min-width: 412px) {
 	.orden{
 		margin-top: 2rem;
 	}		
