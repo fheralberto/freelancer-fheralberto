@@ -100,7 +100,6 @@ h1 span {
 	background-size: cover;
 }
 .contenido-hero h2{
-	height: 5.8rem;
 	color: var(--blanco);
 }
 .contenido-hero {
@@ -115,14 +114,7 @@ h1 span {
 .orden {
 	display: flex;
 	align-items: flex-end;
-}
-@media screen and (min-height: 568px) {
-		.orden{
-			margin-bottom: 2rem;
-		}
-		.contenido-hero h2{
-			height: auto;
-		}
+	margin-bottom: 2rem;
 }
 .contenido-hero p {
 	color: var(--blanco);
@@ -150,6 +142,19 @@ h1 span {
 		height: calc(100vh - 5.8rem);
 	}
 }
+@media screen and (min-height: 554px) and (max-height: 567px) {
+	.orden{
+		margin-bottom: 0;
+	}
+	.contenido-hero h2{
+		height: 5.8rem;
+	}
+}
+@media screen and (min-height: 736px) {
+	.orden{
+		margin-top: 2rem;
+	}		
+}
 @media screen and (min-height: 554px) {
 	.nav-bg {
 		height: fit-content;
@@ -162,7 +167,6 @@ h1 span {
 		scroll-snap-stop:unset;
 	}
 }
-
 @media screen and (min-height: 554px) and (min-width: 412px) {
 	.navegacion a{
 		margin-bottom: 2rem
@@ -171,7 +175,6 @@ h1 span {
 		padding: 0 1rem;
 	}
 }
-
 /* ___main___ */
 main.contenedor{
 	margin-bottom: 3rem;
